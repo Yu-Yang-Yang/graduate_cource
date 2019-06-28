@@ -1,3 +1,4 @@
+
 \documentclass{aastex62}
 
 
@@ -28,7 +29,7 @@ We used the LAMOST DR5 OB stars sample  to obtain the scaleheight and probabilit
 \end{abstract}
 
 
-\keywords{Galactic:disk--Galactic:structure--stars:OB-type}
+\keywords{Galactic:disk -- Galactic:structure -- stars:OB-type}
 
 
 
@@ -47,17 +48,21 @@ we use OB stars observed in the LAMOST survey to probe the structure of the thin
 
 At a given R bin, the vertical stellar density profile is composed of  two components: the thin and thick discs. We adopt the exp model for the thin and thick discs . 
 For the thin disc component, the vertical density profile at given R can be written as 
-
-\\\centering $v_{thin}(Z \mid R)$ = $v_0(R)$[1-f(R)]$e^{-Z \setminus h_1(R)}$
-
+\begin{equation}
+$v_{thin}(Z \mid R)$ = $v_0(R)$[1-f(R)]$e^{-Z \setminus h_1(R)}$
+\end{equation}
 where ν0(R) is the total stellar density at Z = 0, f(R) are the fractions of thick disc at Z = 0, and h1(R) is the scaleheight of the thin disc.All these parameters are functions of R without any pre-defifined analytical form.
 For the thick disc, this becomes
-
-\\\centering $v_{thick}(Z \mid R)$ = $v_0(R)$f(R)$e^{-Z \setminus h_2(R)}$
+\begin{equation}
+$v_{thick}(Z \mid R)$ = $v_0(R)$f(R)$e^{-Z \setminus h_2(R)}$
+\end{equation}
 
 Similarly to the thin disc, the scaleheight of the thick disc, hz2(R), is also a function of R without pre-defifined form.
 
-
+\begin{figure}[ht!]
+\plotone{exp.eps}
+\caption{Fitting the data points R=7kpc to R=8kpc area with the curve-fit.}
+\end{figure}
 
 \subsection{RESULTS} \label{sec:tables}
 
@@ -65,6 +70,7 @@ We separate the OB samples into R bins centred at R = 6.0, 7.0, 8.0, 9.0, 10.0, 
 
 
 \end{document}
+
 
 
 
